@@ -3,6 +3,8 @@ project:
   output-dir: docs
 website:
   title: "Clustering"
+  repo-url: https://github.com/Behrokhb/clusterbb
+  repo-actions: [edit, issue]
   navbar:
     right:
       - about.qmd
