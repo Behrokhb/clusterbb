@@ -1,0 +1,21 @@
+---
+title: "Behrokh_Blog_R.Code"
+format: html
+editor: visual
+By: Behrokh Bazmara
+---
+
+
+```{r}
+                               # Clustering
+
+#Importing required libararies
+install.packages("FactoMineR")
+install.packages("factoextra")
+library(cluster)
+library(parameters)
+
+#Read in data
+FitData2<-read.csv('Book3.csv') 
+
+#Scaling data
